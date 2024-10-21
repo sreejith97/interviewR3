@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  background-color: #f5f5f5;
+  height: 100vh;
+}
+
+.profile-top {
+  width: 100;
+  height: 500px;
+  background: #1c1c1c;
+  position: relative;
+}
+
+.card-container {
+  width: 500px;
+  height: 300px;
+  background: #ffff;
+  position: absolute;
+  bottom: -300px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.profile-image-container {
+  width: 100%;
+  background: #9f9f9f;
+  height: 100px;
+  position: relative;
+}
+
+.loading {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loading p {
+  font-size: 20px;
+  font-weight: 500px;
+}
+
+.profile-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background: #000;
+  position: absolute;
+  bottom: -100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid #d9d9d9;
+}
+.profile-image img {
+  border-radius: 100%;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.profile-body-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cover-text-content {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+}
+
+.cover-text-content h1 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.cover-text-content p {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.profile-button {
+  background: #18a92d;
+  border: none;
+  padding: 7px 16px;
+}
